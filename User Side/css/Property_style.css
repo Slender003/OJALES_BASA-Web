@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: 100%;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+   overflow-x: hidden;
+}
+.search-house{
+    display: flex;
+   flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-image: url('https://i.imgur.com/zOMvjFr.jpg');
+    background-size: cover;
+}
+.nav{
+width: 100%;
+
+}
+.nav a{
+    font-family: sans-serif;
+       font-weight: 850;
+       text-decoration: none;
+      font-size: 1.3em;
+      color: #ffffff;
+   margin: 0 auto;
+   transition: color 0.2s ease;
+   }
+   
+   .nav a:hover {
+       color: #868373;
+   }
+.nav ul{
+    display: flex; 
+    justify-content: space-around;
+}
+.text_info{
+    margin-top: 100px;
+    text-align: center;
+}
+#desc{
+    text-align: center;
+}
+.search-container{
+    width: 570px;
+    height: max-content;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    padding:10px;
+    display: flex;
+margin: 0 auto;
+    margin-top: 50px;
+}
+
+.search-input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.search-button{
+    background: #472413;
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+}
+
+.buy-rent{
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0;
+    padding: 10px 20px;
+    margin-left: -4px;
+}
+
+.search-para {
+    justify-self: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+select {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #472413;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select:hover {
+    background-color: #b0adad;
+}
+select:focus {
+    background-color: #ffffff;
+}
+
+
+#filter{
+display:block;
+position: relative;
+
+padding: 10px;
+font-family: sans-serif;
+font-weight: bold;
+color:black;
+background-color: rgb(71, 36, 19, 0.3);
+}
+form {
+    position: relative;
+    left: 4pc;
+    margin-left: 20px;
+}
+select {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #472413;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select:hover {
+    background-color: #b0adad; /* Darken the background color */
+}
+select:focus {
+    background-color: #ffffff;
+}
+#clear_button{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    background: #472413;
+    border-radius: 5px;
+    font-family: sans-serif;
+font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+.house_displays{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.houses{
+margin: 30px;
+width: 520px;
+background-color: aliceblue;
+color: #472413;
+font-family: sans-serif;
+font-weight: bold;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 25px;
+
+}
+.house_img{
+    height: 350px;
+    width: 500px;
+}
+.view_button{
+    height: 30px;
+    background: #472413;
+    border-radius: 5px;
+    font-family: sans-serif;
+font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D2B48C; 
+    border-radius: 6px; 
+    transition: background-color 0.5s ease; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #876A49; 
+}
+
+@media only screen and (max-width: 980px){
+    .house_img{
+        height: 250px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 500px){
+
+.house_img{
+    height: 100px;
+    width: 200px;
+}
+.houses h2{
+ font-size: 1em;
+}
+.nav a{
+    padding:0px;
+     font-family: sans-serif;
+        font-weight: 850;
+        text-decoration: none;
+        padding-right: 22px;
+       font-size: 0.8em;
+       color: #ffffff;
+    }
+    .text_info{
+        margin-top: 80px; 
+    }
+    .text_info h1{
+        font-size: 1.2em;
+    }
+    #desc{
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .search-container{
+    width: 60%;
+    height: fit-content;
+    }
+    .search-bar input{
+        width: 40%;
+        height: 25px;
+        font-size: 12px;
+    }
+    .search-bar select{
+        width: 20%;
+        height: 35px;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .search-button{
+        cursor: pointer;
+        font-size: 16px;
+        width: 25%;
+        height: 35px;
+        font-size: 12px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+#filter{
+    display:block;
+    position: relative;
+    
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(71, 36, 19, 0.3);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    select {
+        width: 150px;
+        height: 30px;
+        border: 1px solid #472413;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #pricetag{
+        width: 142px;
+    }
+    select:hover {
+        background-color: #b0adad; /* Darken the background color */
+    }
+    select:focus {
+        background-color: #ffffff;
+    }
+    #clear_button{
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+        background: #472413;
+        border-radius: 5px;
+        font-family: sans-serif;
+    font-weight: bold;
+        cursor: pointer;
+        color: white;
+    }
+
+}

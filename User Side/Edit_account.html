@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/Edit_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="search-house">
+        <div class="search-para">
+            <nav class="nav">
+                <ul>
+                    <a href="Homepage.html" id="home_text">Home</a>
+                    <a href="rent.html">Rent</a>
+                    <a href="Properties.html">Property</a>   
+                    <a href="Account.html">Account</a>
+                </ul>                          
+                    </nav>
+                    <div class="text_info">
+                        <h1>My Account</h1>
+                        <h4 id="desc">
+                            Access your account to manage your plans and view your pending purchases effortlessly.</h4>
+                    </div>
+        </div>
+
+    </section>
+<div class="main">
+    <div class="left">
+        <div class="profile">
+            <img src="https://i.pinimg.com/564x/7f/d8/ce/7fd8ce83a174c921c0ecb106af67493e.jpg" alt="" id="dp">
+        </div>
+        <div id="My_plans" class="Viewing">
+            <h2><a href="My-plans.html">My Plans</a></h2>
+        </div>
+        <div id="Purchases" class="Viewing">
+            <h2><a href="Purchases.html">Purchases</a></h2>
+        </div>
+        <div id="Logout" class="Viewing">
+            <h2><a href="Login.html">Logout</a></h2>
+        </div>
+    
+    </div>
+
+    <div class="right">
+        <label for="First_name">First name</label>
+        <input type="text" placeholder="Subaru" name="First_name"  class="account_info" id="First_name" onmouseover="this.setAttribute('placeholder', '')" onmouseout="if(!this.value) this.setAttribute('placeholder', 'Subaru')" >
+        <label for="Last_name">Last name</label>
+        <input type="text" placeholder="Natsuki" name="Last_name"  class="account_info" id="Last_name" onmouseover="this.setAttribute('placeholder', '')" onmouseout="if(!this.value) this.setAttribute('placeholder', 'Natsuki')" >
+        <label for="Middle_Initial">Middle Initial</label>
+        <input type="text" placeholder="N/A (optional)" name="Middle_Initial"  class="account_info" id="Middle_Initial" onmouseover="this.setAttribute('placeholder', '')" onmouseout="if(!this.value) this.setAttribute('placeholder', 'N/A (optional)')" >
+        <label for="Email">Email</label>
+        <input type="text" placeholder="EMT@gmail.com" name="Email"  class="account_info" id="Email" onmouseover="this.setAttribute('placeholder', '')" onmouseout="if(!this.value) this.setAttribute('placeholder', 'EMT@gmail.com')">
+        <label for="Phone_number">Phone number</label>
+        <input type="text" placeholder="091-5667-887" name="Phone_number"  class="account_info" id="Phone_number" onmouseover="this.setAttribute('placeholder', '')" onmouseout="if(!this.value) this.setAttribute('placeholder', '091-5667-887')" >
+    </div>
+
+</div>
+<footer>
+    <div class="footer-content">
+        <p>© 2024 Your Company Name. All rights reserved.</p>
+        <p>Contact Us: email@example.com | Phone: +1234567890</p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+</body>
+</html>

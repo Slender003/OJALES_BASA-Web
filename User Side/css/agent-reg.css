@@ -1,0 +1,139 @@
+*{
+    font-family:monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+height: 100vh;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("images/Luxury\ House\ Interior\ Wallpaper.jpg");
+background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: #472413;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    }
+
+label{
+    font-size: 10px;
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#Name{
+    color: #e8e4c9;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 2em;
+   font-weight: 200;
+   user-select: none;
+}
+.navi a {
+    position:relative;
+    top: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 850;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+.log{
+  
+   margin: 0;
+   padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#loginform{
+    margin-top: 12%;
+    border: 1px solid black;
+    padding: 20px;
+    background: linear-gradient(rgba(6, 6, 6, 0.9) , rgba(43, 42, 42, 0.9));
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+#Title{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    color: #e8e4c9; 
+    text-align: center;
+    font-weight: 20;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#T-para{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 10px; 
+       color: #e8e4c9; 
+       text-align: center;
+       padding-bottom: 20px;
+   }
+
+#fname, #lname, #email, #password, #mnumber, #prc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e8e4c9 ;
+    
+}
+#fname_bar, #lname_bar, #email_bar, #password_bar, #mnumber, #prc_bar, #company_bar{
+    padding: 4px;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-weight: 800;
+    color: rgb(4, 4, 4);
+    width: 90%;
+    border-radius: 6px;
+   background-color: silver;
+}
+::placeholder{
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-weight: 800;
+    
+}
+
+
+#Create_button{
+    
+width: 280px;
+    background: #472413;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: silver;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 30px;
+  outline: 0;
+  padding: 12px 14px;
+  transition: background-color 0.5s, color 0.5s;
+  text-align: center;
+  
+}
+#Create_button:hover{
+    background-color: black;
+}
